@@ -1,9 +1,5 @@
-'use server';
-
 import { faker } from "@faker-js/faker";
 import { ResponseObject, Song } from "./schema";
-
-
 
 function createRandomSongs(): Song {
   return {

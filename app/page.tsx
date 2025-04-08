@@ -1,5 +1,5 @@
 import { PaginationState } from "@tanstack/react-table";
-import { getSongs } from "./action";
+import { getSongs } from "./fetcher";
 import { SongTable } from "./_table";
 import Link from "next/link";
 
